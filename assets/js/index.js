@@ -237,7 +237,7 @@ function searchProduct(sValue) {
     }
 
     if (searchResult.length == 0) {
-        location.href = "/pages/404.html";
+        location.href = "./../pages/404.html";
     }
     else{
         saleCard(searchResult)
